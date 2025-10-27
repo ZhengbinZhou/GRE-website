@@ -1,0 +1,19 @@
+import './globals.css'
+import React from 'react'
+
+export const metadata = {
+  title: 'GRE Vocabulary Learning',
+  description: 'Learn GRE vocabulary with interactive flashcards and tracking',
+}
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className="font-sans">{children}</body>
+    </html>
+  )
+}
