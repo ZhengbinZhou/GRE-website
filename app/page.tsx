@@ -57,7 +57,7 @@ export default function Home() {
 
   // Save memorized words to localStorage whenever it changes
   useEffect(() => {
-    localStorage.setItem('memorizedWords', JSON.stringify([...memorizedWords]));
+    localStorage.setItem('memorizedWords', JSON.stringify(Array.from(memorizedWords)));
   }, [memorizedWords]);
 
   // Filter vocabulary based on search term
