@@ -196,8 +196,8 @@ export default function Home() {
 
                 <div>
                   <p className="text-sm font-medium text-gray-700 mb-1">Example:</p>
-                  <p className="text-gray-900 italic">"{word.example}"</p>
-                  <p className="text-gray-600 mt-1">"{word.chineseExample}"</p>
+                  <p className="text-gray-900 italic">&ldquo;{word.example}&rdquo;</p>
+                  <p className="text-gray-600 mt-1">&ldquo;{word.chineseExample}&rdquo;</p>
                 </div>
 
                 <div className="pt-2 border-t border-gray-200">
